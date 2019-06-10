@@ -16,6 +16,7 @@
 		18DCF2FC1BC68E3F00B7EFD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCF2FA1BC68E3F00B7EFD1 /* LaunchScreen.storyboard */; };
 		18DCF3071BC68E3F00B7EFD1 /* kushalappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCF3061BC68E3F00B7EFD1 /* kushalappTests.m */; };
 		18DCF3121BC68E4000B7EFD1 /* kushalappUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCF3111BC68E3F00B7EFD1 /* kushalappUITests.m */; };
+		BEF62C6D22AE9C0E008BA213 /* sampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF62C6C22AE9C0E008BA213 /* sampleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		18DCF30D1BC68E3F00B7EFD1 /* kushalappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kushalappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DCF3111BC68E3F00B7EFD1 /* kushalappUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kushalappUITests.m; sourceTree = "<group>"; };
 		18DCF3131BC68E4000B7EFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF62C6B22AE9C0E008BA213 /* sampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sampleViewController.h; sourceTree = "<group>"; };
+		BEF62C6C22AE9C0E008BA213 /* sampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				18DCF2FD1BC68E3F00B7EFD1 /* Info.plist */,
 				18DCF2F51BC68E3F00B7EFD1 /* kushalapp.xcdatamodeld */,
 				18DCF2E91BC68E3F00B7EFD1 /* Supporting Files */,
+				BEF62C6B22AE9C0E008BA213 /* sampleViewController.h */,
+				BEF62C6C22AE9C0E008BA213 /* sampleViewController.m */,
 			);
 			path = kushalapp;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,6 +283,7 @@
 				18DCF2EE1BC68E3F00B7EFD1 /* AppDelegate.m in Sources */,
 				18DCF2EB1BC68E3F00B7EFD1 /* main.m in Sources */,
 				18DCF2F71BC68E3F00B7EFD1 /* kushalapp.xcdatamodeld in Sources */,
+				BEF62C6D22AE9C0E008BA213 /* sampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +507,7 @@
 				18DCF3181BC68E4000B7EFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DCF3191BC68E4000B7EFD1 /* Build configuration list for PBXNativeTarget "kushalappTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +516,7 @@
 				18DCF31B1BC68E4000B7EFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DCF31C1BC68E4000B7EFD1 /* Build configuration list for PBXNativeTarget "kushalappUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +525,7 @@
 				18DCF31E1BC68E4000B7EFD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
